@@ -20,3 +20,7 @@ dropElement.addEventListener("dragover", () => {
 dropElement.addEventListener("dragleave", () => {
   console.log("drag leave");
 });
+
+dropElement.addEventListener("drag", () => {
+  console.log("drag event");
+});
